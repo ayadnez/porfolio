@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10;
+}
+
+.description {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+}
+
+.topblur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    max-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(0, 0, 0, 0.6); /* Adjusted to a blackish color with transparency */
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomblur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 250px;
+    max-width: 350px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(0, 0, 0, 0.6); /* Adjusted to a blackish color with transparency */
+    filter: blur(100px);
+    z-index: 0;
+}
