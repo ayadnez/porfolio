@@ -1,23 +1,37 @@
 import React from 'react'
 import styles from './About.module.css';
+import { getImageurl } from '../../utils';
 
 const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='about'>
+        <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
-            <h1>About</h1>
-           <h2>backend developer</h2> 
-            <p className={styles.description}>Im a backend developer with 1.5 years of experience of writting scallable and disturbuted systems in go , c++ , javascript , python, java 
-                with latest technologies like kafka, rabbit mq, mongodb,kibbana .
-            </p>
+            <img src={getImageurl("assets/about/aboutImage.png")}
+            alt='me sitting with a laptop'
+            className={styles.aboutImage}
+            />
+            <ul className={styles.aboutItems}>
+                <li className={styles.aboutItem}>
+                    <img src={getImageurl("assets/about/serverIcon.png")} alt='server icon '/>
+                    <div className={styles.aboutItemText}>
+                        <h3>Backend Developer</h3>
+                        <p>
+                            I'm a Backend developer with experience of 1.5 years of writting scalabble and distributed system 
+                        </p>
+                    </div>
+                </li>
+                <li className={styles.aboutItem}>
+                    <img src={getImageurl("assets/about/cursorIcon.png")} alt='curson icon '/>
+                    <div className={styles.aboutItemText}>
+                        <h3>Frontend Developer</h3>
+                        <p>
+                            I'm a Frontend developer having experience of writting responsive  and optimised websites
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
-          
-        <div className={styles.content}>
-            <h2>frontend developer</h2>
-            <p className={styles.description}>I also have experience in frontend development with lots of projects in react, nextjs, tailwind </p>
-        </div>
-        <div className= {styles.topblur}/>
-        <div className= {styles.bottomblur} /> 
     </section>
   )
 }

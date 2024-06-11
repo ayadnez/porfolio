@@ -1,0 +1,31 @@
+[   
+    {
+    "title": "GO",
+    "imageSrc" : "assets/skills/go.png"
+    },
+    
+    {
+      "title": "HTML",
+      "imageSrc": "assets/skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "assets/skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "assets/skills/react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "assets/skills/node.png"
+    },
+    {
+      "title": "GraphQL",
+      "imageSrc": "assets/skills/graphql.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "assets/skills/mongodb.png"
+    }
+  ]

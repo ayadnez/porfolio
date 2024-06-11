@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Backend Developer",
+      "organisation": "KloudOne",
+      "startDate": "Jan, 2024",
+      "endDate": "Present",
+      "experiences": ["Working on passwordless management systems"],
+      "imageSrc": "assets/history/kloudone_logo.png"
+    },
+    {
+      "role": "SDE Intern",
+      "organisation": "Dotpe",
+      "startDate": "Jan, 2023",
+      "endDate": "Aug, 2023",
+      "experiences": ["worked on digital showroom" ,"wrote backend apis,optimization ","and solved productin bugs"],
+      "imageSrc": "assets/history/dotpe.png"
+    }
+  ]
