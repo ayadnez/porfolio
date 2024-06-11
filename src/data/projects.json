@@ -1,0 +1,26 @@
+[
+    {
+      "title": "RateFlix",
+      "imageSrc": "assets/projects/project.png",
+      "description": "A Golang based movie rating application, based on movie data dump from TMDB. JWT Authenticated APIs for rating movies and fetching.",
+      "skills": ["GO", "JWT", "GIN"],
+      "demo": "https://www.rateflix.com",
+      "source": "https://www.github.com/ayadnez/rateflix"
+    },
+    {
+      "title": "Crowdfunding",
+      "imageSrc": "assets/projects/project.png",
+      "description": "A decentralized fundraising model utilizing smart contracts, built with Solidity and Remix-IDE.",
+      "skills": ["Solidity", "Remix-IDE", "Smart Contracts"],
+      "demo": "https://www.crowdfunding.com",
+      "source": "https://www.github.com/ayadnez/Crowdfunding2"
+    },
+    {
+      "title": "DineCraft",
+      "imageSrc": "assets/projects/project.png",
+      "description": "A Golang-based restaurant management system to streamline operations, enhance customer experiences, and optimize performance.",
+      "skills": ["GO", "GIN"],
+      "demo": "https://www.dinecraft.com",
+      "source": "https://www.github.com/ayadnez/dinecraft"
+    }
+]
