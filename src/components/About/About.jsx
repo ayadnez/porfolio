@@ -17,7 +17,7 @@ const About = () => {
                     <div className={styles.aboutItemText}>
                         <h3>Backend Developer</h3>
                         <p>
-                            I'm a Backend developer with experience of 1.5 years of writting scalabble and distributed system 
+                            I'm a Backend developer with experience of 1.5 years of writting scalabble and distributed systems 
                         </p>
                     </div>
                 </li>
