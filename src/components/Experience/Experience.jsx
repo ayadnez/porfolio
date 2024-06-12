@@ -9,6 +9,7 @@ import { getImageurl } from "../../utils";
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
+      <h3 className={styles.subtitle}>Tech Stack</h3>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
