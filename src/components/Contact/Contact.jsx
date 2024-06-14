@@ -19,7 +19,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/zahid-ahmad-104892222/">linkedin.com/zahid-ahmad</a>
         </li>
         <li className={styles.link}>
-            <img src={getImageurl("assets/contact/emailIcon.png")} alt='email icon '/>
+            <img src={getImageurl("assets/contact/githubIcon.png")} alt='email icon '/>
             <a href='https://github.com/ayadnez'>github.com/ayadnez</a>
         </li>
         
